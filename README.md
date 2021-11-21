@@ -24,5 +24,7 @@ ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 test.mpeg
 preconditions for ubuntu arm
 
 # IMPORTANT youtube-dl default isntallation is not up-to-date, ==> use pip installer
+```
 pip3 install youtube-dl
 youtube-dl "https://www.youtube.com/watch?v=1yRjurtAgVo"
+```
