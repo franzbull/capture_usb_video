@@ -4,6 +4,7 @@ preconditions for ubuntu on arm:
 
 get driver packages:  
 ```
+# https://github.com/limhyon/guvcview
 sudo apt-get install guvcview
 # https://github.com/fsphil/fswebcam
 sudo apt-get install fswebcam
