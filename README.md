@@ -36,6 +36,10 @@ cmake  ../opencv-master
 cmake --build .
 ```
 
+# How to get camera jpg with opencv on tegra 
+
+https://github.com/mdegans/nano_build_opencv
+
 # How to get screens from youtube 
 
 preconditions for ubuntu arm
