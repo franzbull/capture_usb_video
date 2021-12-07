@@ -35,6 +35,10 @@ cmake  ../opencv-master
 # Build
 cmake --build .
 ```
+make opencv systemwide available
+```
+sudo make install
+```
 
 # How to get camera jpg with opencv on tegra 
 
