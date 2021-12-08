@@ -69,9 +69,7 @@ https://github.com/mdegans/nano_build_opencv
 
 # How to get screens from youtube 
 
-preconditions for ubuntu arm
-
-# IMPORTANT youtube-dl default installation is not up-to-date, ==> use pip installer
+IMPORTANT youtube-dl default installation is not up-to-date, ==> use pip installer
 ```
 pip3 install youtube-dl
 youtube-dl "https://www.youtube.com/watch?v=1yRjurtAgVo"
