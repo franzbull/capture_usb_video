@@ -41,6 +41,27 @@ make opencv systemwide available
 ```
 sudo make install
 ```
+configuration for VisualStudioCode IntelliSense Auto Completion for opencv 
+file: c_cpp_properties.json (public hpp files for visual studio code by adding "/usr/local/include/**" to "includePath"
+```
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-arm64"
+        }
+    ],
+    "version": 4
+}
+```
 
 # How to get camera jpg with opencv on tegra 
 
