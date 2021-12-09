@@ -33,7 +33,7 @@ unzip opencv.zip
 # Create build directory
 mkdir -p build && cd build
 # Configure
-cmake  -D OPENCV_GENERATE_PKGCONFIG=ON ../opencv-master
+cmake  -D OPENCV_GENERATE_PKGCONFIG=ON -D WITH_FFMPEG=ON ../opencv-master
 # Build
 cmake --build .
 ```
