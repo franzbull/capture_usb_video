@@ -75,3 +75,4 @@ sudo apt-get -y install python3-pip
 pip3 install youtube-dl
 youtube-dl "https://www.youtube.com/watch?v=1yRjurtAgVo"
 ```
+# How to get videos mp4 with opencv on tegra
