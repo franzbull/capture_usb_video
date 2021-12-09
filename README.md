@@ -71,6 +71,7 @@ https://github.com/mdegans/nano_build_opencv
 
 IMPORTANT youtube-dl default installation is not up-to-date, ==> use pip installer
 ```
+sudo apt-get -y install python3-pip
 pip3 install youtube-dl
 youtube-dl "https://www.youtube.com/watch?v=1yRjurtAgVo"
 ```
