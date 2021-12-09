@@ -19,7 +19,7 @@ sudo guvcview
 ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 test.mpeg
 ```
 
-# How to get camera jpg with opencv
+# How to get camera jpg with opencv with agx xavier
 
 prerequisites
 ```
