@@ -63,7 +63,7 @@ file: c_cpp_properties.json (public hpp files for visual studio code by adding "
 }
 ```
 
-# How to get camera jpg with opencv on tegra 
+# How to get camera with opencv on tegra 
 
 https://github.com/mdegans/nano_build_opencv
 
